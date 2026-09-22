@@ -1,48 +1,16 @@
-# Counter Meeting App
+# React + Vite
 
-A modern and minimalist React app for timing meetings with a slider of images depicting people connecting, like in a church group.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Set a timer for X minutes
-- Countdown display
-- Image slider with placeholder images (replace with actual images of people connecting)
-- Clean, minimalist design
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Getting Started
+## React Compiler
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
+## Expanding the ESLint configuration
 
-3. Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-## Usage
-
-- Enter the number of minutes for the meeting.
-- Click "Start" to begin the countdown.
-- Use the "Prev" and "Next" buttons to navigate through the images.
-- Click "Reset" to stop and reset the timer.
-
-## Customization
-
-- Replace the placeholder images in `src/App.tsx` with actual images of people connecting.
-- Modify the styles in `src/App.css` for further customization.
-
-## Build
-
-To build the app for production:
-```bash
-npm run build
-```
-
-To preview the production build:
-```bash
-npm run preview
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
